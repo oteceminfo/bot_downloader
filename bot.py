@@ -4,7 +4,7 @@ def resposta(resposta):
   if resposta == '1':
     url = input('Insira a url: ')
     yt = pytube.Youtube(url)
-    video = yt.streams.get__by__itag(240)
+    video = yt.streams.get__by__itag(22)
     vdieo.download()
     print('Download feito com sucesso!')
   elif resposta == '2':
